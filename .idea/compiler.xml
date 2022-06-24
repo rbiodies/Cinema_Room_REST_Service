@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task-build-classes-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task-build-reports-tests.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task-build-test-results.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task-build-tmp.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task-out.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Cinema_Room_REST_Service-task.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-@ResponseStatus_annotation.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Four_status_codes.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Implement_DELETE_endpoint-build-classes-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Implement_DELETE_endpoint-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Implement_DELETE_endpoint-build-generated-sources-headers-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Implement_DELETE_endpoint-build-reports-tests.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Implement_DELETE_endpoint-build-test-results.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Implement_DELETE_endpoint-build-tmp.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Implement_DELETE_endpoint.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Improve_the_program-build-classes-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Improve_the_program-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Improve_the_program-build-generated-sources-headers-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Improve_the_program-build-reports-tests.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Improve_the_program-build-test-results.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Improve_the_program-build-tmp.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Improve_the_program.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Exception_handling-Theory.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-@RequestBody_annotation.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Adding_new_functionality.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Important_message-build-classes-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Important_message-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Important_message-build-generated-sources-headers-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Important_message-build-reports-tests.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Important_message-build-test-results.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Important_message-build-tmp.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Important_message.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-classes-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-generated-sources-headers-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-reports-tests.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-test-results.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-tmp.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Receiving_and_returning_products.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Theory.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Handling_requests_with_bodies-Three_steps_to_accept_XML.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Introduction_to_Java-Hello.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Introduction_to_Java-Theory.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Introduction_to_Java-WORA.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Multidimensional_array-Cinema.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Multidimensional_array-Find_the_corners.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Multidimensional_array-Maximum_element_in_a_matrix.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Multidimensional_array-Practical_applications.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Multidimensional_array-Reverse_elements.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Multidimensional_array-Theory.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Posting_and_deleting_data_via_REST-Deleting_items.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-classes-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-generated-sources-headers-java.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-reports-tests.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-test-results.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-tmp.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Posting_and_deleting_data_via_REST-Storing_user_names.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Posting_and_deleting_data_via_REST-Theory.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Printing_data-Digits_from_0_to_9_backwards.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Printing_data-From_0_to_4.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Printing_data-Printing_a_magic_letter.main" target="11" />
+      <module name="Cinema_Room_REST_Service.Topics-Printing_data-Theory.main" target="11" />
+      <module name="Cinema_Room_REST_Service.util.main" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
