@@ -26,8 +26,8 @@
 <summary>Example 4: a correct POST /purchase request</summary>
 
 ![](https://user-images.githubusercontent.com/90090114/175540937-1d80cfee-edc1-4af8-a201-7ed779fdee4a.png)
->- row — номер строки;
->- column — номер столбца.
+>- row — the row number;
+>- column — the column number.
 </details>
 <details>
 <summary>Example 5: a POST /purchase request, the ticket is already booked</summary>
