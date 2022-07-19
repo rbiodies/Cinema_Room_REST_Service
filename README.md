@@ -1,4 +1,4 @@
-# <img height="32" width="32" src="https://unpkg.com/simple-icons@v6/icons/postman.svg" /> Cinema_Room_REST_Service <img height="32" width="32" src="https://unpkg.com/simple-icons@v6/icons/springboot.svg" />
+# <img height="32" width="32" src="https://unpkg.com/simple-icons@v6/icons/springboot.svg" /> Cinema_Room_REST_Service <img height="32" width="32" src="https://unpkg.com/simple-icons@v6/icons/postman.svg" />
 ### The objectives of this project:
 1. Implement the /seats endpoint that handles GET requests and returns the information about the movie theatre.
 2. Implement the /purchase endpoint that handles POST requests and marks a booked ticket as purchased.
