@@ -1,20 +1,24 @@
 package cinema;
 
+import cinema.entities.ReturnedTicket;
+import cinema.entities.Stats;
+import cinema.entities.Ticket;
+import cinema.entities.Token;
+import cinema.exceptions.BusinessException;
+import cinema.exceptions.CustomException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 @RestController
 public class TicketController {
     List<Ticket> available_seats = new ArrayList<>();
     List<Token> available_token = new ArrayList<>();
-    Stats stats = new Stats(
-            0,
-            81,
-            0
-    );
+
+    @Autowired
+    TicketService stats;
 
     public TicketController() {
         for (int i = 0; i < 9; i++) {
@@ -39,9 +43,7 @@ public class TicketController {
                 available_token.add(new Token(ticketWithPrice));
                 available_seats.remove(ticketWithPrice);
 
-                stats.setCurrent_income(stats.getCurrent_income() + ticketWithPrice.getPrice());
-                stats.setNumber_of_available_seats(stats.getNumber_of_available_seats() - 1);
-                stats.setNumber_of_purchased_tickets(stats.getNumber_of_purchased_tickets() + 1);
+                stats.generateTicket(ticketWithPrice);
 
                 return available_token.get(available_token.size() - 1);
             }
@@ -56,9 +58,7 @@ public class TicketController {
                 available_seats.add(tokenAndTicket.getTicket());
                 available_token.remove(tokenAndTicket);
 
-                stats.setCurrent_income(stats.getCurrent_income() - tokenAndTicket.getTicket().getPrice());
-                stats.setNumber_of_available_seats(stats.getNumber_of_available_seats() + 1);
-                stats.setNumber_of_purchased_tickets(stats.getNumber_of_purchased_tickets() - 1);
+                stats.returnTicket(tokenAndTicket);
 
                 return new ReturnedTicket(tokenAndTicket.getTicket());
             }
@@ -68,10 +68,7 @@ public class TicketController {
 
     @PostMapping("/stats")
     public Stats stats(@RequestParam(required = false) String password) throws CustomException {
-        if (Objects.equals(password, "super_secret")) {
-            return stats;
-        }
-        throw new CustomException("The password is wrong!");
+        return stats.getStats(password);
     }
 }
 

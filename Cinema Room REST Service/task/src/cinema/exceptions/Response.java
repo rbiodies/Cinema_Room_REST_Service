@@ -1,4 +1,4 @@
-package cinema;
+package cinema.exceptions;
 
 public class Response {
 

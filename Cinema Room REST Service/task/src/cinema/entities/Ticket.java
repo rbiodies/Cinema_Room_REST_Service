@@ -1,4 +1,4 @@
-package cinema;
+package cinema.entities;
 
 public class Ticket {
 
@@ -11,6 +11,7 @@ public class Ticket {
     public Ticket(int row, int column) {
         this.row = row;
         this.column = column;
+
         if (this.row <= 4) {
             this.price = 10;
         } else {

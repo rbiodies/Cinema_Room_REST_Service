@@ -1,4 +1,6 @@
-package cinema;
+package cinema.entities;
+
+import cinema.entities.Ticket;
 
 import java.util.UUID;
 

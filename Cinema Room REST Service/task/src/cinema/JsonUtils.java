@@ -1,5 +1,7 @@
 package cinema;
 
+import cinema.entities.Ticket;
+
 import java.util.List;
 
 public class JsonUtils {
