@@ -38,11 +38,11 @@ public class TicketController {
             if (ticketWithPrice.getColumn() == ticket.getColumn() && ticketWithPrice.getRow() == ticket.getRow()) {
                 available_token.add(new Token(ticketWithPrice));
                 available_seats.remove(ticketWithPrice);
-                stats = new Stats(
-                        stats.getCurrent_income() + ticketWithPrice.getPrice(),
-                        stats.getNumber_of_available_seats() - 1,
-                        stats.getNumber_of_purchased_tickets() + 1
-                );
+
+                stats.setCurrent_income(stats.getCurrent_income() + ticketWithPrice.getPrice());
+                stats.setNumber_of_available_seats(stats.getNumber_of_available_seats() - 1);
+                stats.setNumber_of_purchased_tickets(stats.getNumber_of_purchased_tickets() + 1);
+
                 return available_token.get(available_token.size() - 1);
             }
         }
@@ -55,11 +55,11 @@ public class TicketController {
             if (tokenAndTicket.getToken().equals(token.getToken())) {
                 available_seats.add(tokenAndTicket.getTicket());
                 available_token.remove(tokenAndTicket);
-                stats = new Stats(
-                        stats.getCurrent_income() - tokenAndTicket.getTicket().getPrice(),
-                        stats.getNumber_of_available_seats() + 1,
-                        stats.getNumber_of_purchased_tickets() - 1
-                );
+
+                stats.setCurrent_income(stats.getCurrent_income() - tokenAndTicket.getTicket().getPrice());
+                stats.setNumber_of_available_seats(stats.getNumber_of_available_seats() + 1);
+                stats.setNumber_of_purchased_tickets(stats.getNumber_of_purchased_tickets() - 1);
+
                 return new ReturnedTicket(tokenAndTicket.getTicket());
             }
         }
